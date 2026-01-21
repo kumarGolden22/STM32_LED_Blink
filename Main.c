@@ -95,7 +95,7 @@ int main(void)
   while (1)
   {
 	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5); // Toggle LED
-	      HAL_Delay(5000); // 500 ms delay
+	      HAL_Delay(1000); // 1000 ms delay
 
     /* USER CODE END WHILE */
 
